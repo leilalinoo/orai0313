@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <form
+        action="#"
+        method="get"
+        name="validTeszt"
+        onsubmit="return validateForm()"
+      >
+        <div class="sor">
+          <label for="vNev">Vezetéknév: </label>
+          <input type="text" id="vNev" name="vNev" />
+        </div>
+
+        <div class="sor">
+          <label for="kNev">Keresztnév: </label>
+          <input type="text" id="kNev" name="kNev" />
+        </div>
+        <br />
+
+        <br />
+        <div class="sor">
+          <label for="jelszo1">Jelszó1: </label>
+          <input type="password" id="jelszo1" name="jelszo1" />
+        </div>
+
+        <div class="sor">
+          <label for="jelszo2">Jelszó2: </label>
+          <input type="password" id="jelszo2" name="jelszo2" />
+        </div>
+        <div class="sor">
+          <input type="submit" value="Küldés" />
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
